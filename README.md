@@ -47,9 +47,9 @@ The Log Analysis Script is a Python tool designed to parse web server logs, anal
 
 - **CSV File**:
   - Contains:
-   - IP Address and request counts.
-   - Most accessed endpoint and access count.
-   - Suspicious activity details.
+    - IP Address and request counts.
+    - Most accessed endpoint and access count.
+    - Suspicious activity details.
 
 ## Example
 ### Input Log File (sample.log):
