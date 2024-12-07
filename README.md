@@ -90,12 +90,12 @@ The Log Analysis Script is a Python tool designed to parse web server logs, anal
 
 ### Terminal Output:
 - IP Address Request Count:
-IP Address            Request Count
-203.0.113.5                       8
-198.51.100.23                     8
-192.168.1.1                       7
-10.0.0.2                          6
-192.168.1.100                     5
+  - IP Address            Request Count
+  - 203.0.113.5                       8
+  - 198.51.100.23                     8
+  - 192.168.1.1                       7
+  - 10.0.0.2                          6
+  - 192.168.1.100                     5
 
 - **Most Frequently Accessed Endpoint**:
   - /login (Accessed 13 times)
