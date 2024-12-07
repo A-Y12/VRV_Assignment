@@ -135,11 +135,11 @@ IP Address	Failed Login Count
 
 ## Troubleshooting
 - **File Not Found Error**:
-- Ensure the LOG_FILE path is correct and the file exists.
+  -  Ensure the LOG_FILE path is correct and the file exists.
 - **Incorrect Results**:
-- Verify that the log file matches the expected format (IP address, HTTP method, status code, etc.).
+  - Verify that the log file matches the expected format (IP address, HTTP method, status code, etc.).
 - **Encoding Issues**:
-- Use UTF-8 encoding or adjust the open function to handle other encodings with errors='replace'.
+  - Use UTF-8 encoding or adjust the open function to handle other encodings with errors='replace'.
 
 ## Contribution
-Feel free to fork this repository and submit pull requests for enhancements or bug fixes.
+- Feel free to fork this repository and submit pull requests for enhancements or bug fixes.
