@@ -16,50 +16,50 @@ The Log Analysis Script is a Python tool designed to parse web server logs, anal
   - collections
 
 ## Installation:
--Clone or download this repository to your local machine.
--Ensure Python 3.6 or higher is installed.
--Install any required modules using the following command:
-  -pip install -r requirements.txt
+- Clone or download this repository to your local machine.
+- Ensure Python 3.6 or higher is installed.
+- Install any required modules using the following command:
+  - pip install -r requirements.txt
 (No additional libraries are required for this script, as it uses Python's standard library.)
 
 ## Usage
 ### configuring the Script
 #### Log File Path:
--Update the LOG_FILE variable in the script to point to the web server log file you wish to analyze. 
--Example:LOG_FILE = 'path/to/your/logfile.log'
+- Update the LOG_FILE variable in the script to point to the web server log file you wish to analyze. 
+- Example:LOG_FILE = 'path/to/your/logfile.log'
 #### Output File Path:
--Set the OUTPUT_FILE variable to specify the desired name and location of the output CSV file. 
--Example:OUTPUT_FILE = 'path/to/output/log_analysis_results.csv'
+- Set the OUTPUT_FILE variable to specify the desired name and location of the output CSV file. 
+- Example:OUTPUT_FILE = 'path/to/output/log_analysis_results.csv'
 #### Failed Login Threshold:
--Modify the FAILED_LOGIN_THRESHOLD to adjust the number of failed login attempts considered suspicious. ---- 
--Example:FAILED_LOGIN_THRESHOLD = 3(here) or 10.
+- Modify the FAILED_LOGIN_THRESHOLD to adjust the number of failed login attempts considered suspicious. ---- 
+- Example:FAILED_LOGIN_THRESHOLD = 3(here) or 10.
 
 ### Running the Script
--Run the script using the following command:
-  -python log_analysis_script.py
+- Run the script using the following command:
+  - python log_analysis_script.py
 
 ### Output
--**Terminal Output**:
-  -Displays:
-    -Request counts for each IP address.
-    -The most accessed endpoint and its count.
-    -Suspicious activity with failed login attempts exceeding the threshold.
+- **Terminal Output**:
+  - Displays:
+    - Request counts for each IP address.
+    - The most accessed endpoint and its count.
+    - Suspicious activity with failed login attempts exceeding the threshold.
 
--**CSV File**:
- -Contains:
-   -IP Address and request counts.
-   -Most accessed endpoint and access count.
-   -Suspicious activity details.
+- **CSV File**:
+ - Contains:
+   - IP Address and request counts.
+   - Most accessed endpoint and access count.
+   - Suspicious activity details.
 
 ## Example
 ### Input Log File (sample.log):
-192.168.1.1 - - [03/Dec/2024:10:12:34 +0000] "GET /home HTTP/1.1" 200 512
-203.0.113.5 - - [03/Dec/2024:10:12:35 +0000] "POST /login HTTP/1.1" 401 128 "Invalid credentials"
-10.0.0.2 - - [03/Dec/2024:10:12:36 +0000] "GET /about HTTP/1.1" 200 256
-192.168.1.1 - - [03/Dec/2024:10:12:37 +0000] "GET /contact HTTP/1.1" 200 312
-198.51.100.23 - - [03/Dec/2024:10:12:38 +0000] "POST /register HTTP/1.1" 200 128
-203.0.113.5 - - [03/Dec/2024:10:12:39 +0000] "POST /login HTTP/1.1" 401 128 "Invalid credentials"
-192.168.1.100 - - [03/Dec/2024:10:12:40 +0000] "POST /login HTTP/1.1" 401 128 "Invalid credentials"
+- 192.168.1.1 - - [03/Dec/2024:10:12:34 +0000] "GET /home HTTP/1.1" 200 512
+- 203.0.113.5 - - [03/Dec/2024:10:12:35 +0000] "POST /login HTTP/1.1" 401 128 "Invalid credentials"
+- 10.0.0.2 - - [03/Dec/2024:10:12:36 +0000] "GET /about HTTP/1.1" 200 256
+- 192.168.1.1 - - [03/Dec/2024:10:12:37 +0000] "GET /contact HTTP/1.1" 200 312
+- 198.51.100.23 - - [03/Dec/2024:10:12:38 +0000] "POST /register HTTP/1.1" 200 128
+- 203.0.113.5 - - [03/Dec/2024:10:12:39 +0000] "POST /login HTTP/1.1" 401 128 "Invalid credentials"
+- 192.168.1.100 - - [03/Dec/2024:10:12:40 +0000] "POST /login HTTP/1.1" 401 128 "Invalid credentials"
 10.0.0.2 - - [03/Dec/2024:10:12:41 +0000] "GET /dashboard HTTP/1.1" 200 1024
 198.51.100.23 - - [03/Dec/2024:10:12:42 +0000] "GET /about HTTP/1.1" 200 256
 192.168.1.1 - - [03/Dec/2024:10:12:43 +0000] "GET /dashboard HTTP/1.1" 200 1024
