@@ -9,11 +9,11 @@ The Log Analysis Script is a Python tool designed to parse web server logs, anal
 - **CSV Report Generation**: Saves the analyzed data into a structured CSV file.
 
 ## Requirements:
--Python 3.6 or higher
--Required Python modules:
-  -re
-  -csv
-  -collections
+- Python 3.6 or higher
+- Required Python modules:
+  - re
+  - csv
+  - collections
 
 ## Installation:
 -Clone or download this repository to your local machine.
