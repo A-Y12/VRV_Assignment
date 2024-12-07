@@ -97,13 +97,13 @@ IP Address            Request Count
 10.0.0.2                          6
 192.168.1.100                     5
 
-Most Frequently Accessed Endpoint:
-/login (Accessed 13 times)
+- **Most Frequently Accessed Endpoint**:
+  - /login (Accessed 13 times)
 
-Suspicious Activity Detected:
-IP Address          Failed Login Attempts
-203.0.113.5                            8
-192.168.1.100                          5
+- **Suspicious Activity Detected**:
+ - *IP Address*          *Failed Login Attempts*
+ - 203.0.113.5                            8
+ - 192.168.1.100                          5
 
 Process finished with exit code 0
 
