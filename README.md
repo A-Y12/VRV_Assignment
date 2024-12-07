@@ -24,13 +24,13 @@ pip install -r requirements.txt
 
 ## Usage
 ### configuring the Script
-### Log File Path:
+#### Log File Path:
 Update the LOG_FILE variable in the script to point to the web server log file you wish to analyze. 
 Example:LOG_FILE = 'path/to/your/logfile.log'
-### Output File Path:
+#### Output File Path:
 Set the OUTPUT_FILE variable to specify the desired name and location of the output CSV file. 
 Example:OUTPUT_FILE = 'path/to/output/log_analysis_results.csv'
-### Failed Login Threshold:
+#### Failed Login Threshold:
 Modify the FAILED_LOGIN_THRESHOLD to adjust the number of failed login attempts considered suspicious. Example:FAILED_LOGIN_THRESHOLD = 3(here) or 10.
 
 ### Running the Script
