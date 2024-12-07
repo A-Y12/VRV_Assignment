@@ -91,11 +91,11 @@ The Log Analysis Script is a Python tool designed to parse web server logs, anal
 ### Terminal Output:
 - IP Address Request Count:
   - `IP Address`&nbsp;&nbsp;&nbsp;&nbsp;`Request Count`
-  - 203.0.113.5&nbsp;&nbsp;&nbsp;&nbsp;8
-  - 198.51.100.23&nbsp;&nbsp;&nbsp;&nbsp;8
-  - 192.168.1.1&nbsp;&nbsp;&nbsp;&nbsp;7
-  - 10.0.0.2&nbsp;&nbsp;&nbsp;&nbsp;6
-  - 192.168.1.100&nbsp;&nbsp;&nbsp;&nbsp;5
+  - 203.0.113.5&nbsp;&nbsp;&nbsp;&nbsp;   8
+  - 198.51.100.23&nbsp;&nbsp;&nbsp;&nbsp; 8
+  - 192.168.1.1&nbsp;&nbsp;&nbsp;&nbsp;   7
+  - 10.0.0.2&nbsp;&nbsp;&nbsp;&nbsp;      6
+  - 192.168.1.100&nbsp;&nbsp;&nbsp;&nbsp; 5
 
 - **Most Frequently Accessed Endpoint**:
   - /login&nbsp;&nbsp;&nbsp;&nbsp;(Accessed 13 times)
@@ -109,13 +109,13 @@ Process finished with exit code 0
 
 ### CSV Output (log_analysis_results.csv):
 - `IP Address`&nbsp;&nbsp;&nbsp;&nbsp;` Request Count`
-  - 203.0.113.5	   &nbsp;&nbsp;&nbsp;&nbsp;	   8
+  - 203.0.113.5	   &nbsp;&nbsp;&nbsp;&nbsp;	      8
   - 198.51.100.23&nbsp;&nbsp;&nbsp;&nbsp;	      8
   - 192.168.1.1	     &nbsp;&nbsp;&nbsp;&nbsp;	 7
   - 10.0.0.2	    &nbsp;&nbsp;&nbsp;&nbsp; 	 6
   - 192.168.1.100&nbsp;&nbsp;&nbsp;&nbsp;	      5
 	
-- `Most Accessed Endpoin`t	&nbsp;&nbsp;&nbsp;&nbsp;	`Access Count`
+- `Most Accessed Endpoint`	&nbsp;&nbsp;&nbsp;&nbsp;	`Access Count`
   - /login	&nbsp;&nbsp;&nbsp;&nbsp; 13
 	
 - `IP Address`&nbsp;&nbsp;&nbsp;&nbsp;	`Failed Login Count`
