@@ -116,11 +116,11 @@ Process finished with exit code 0
   - 192.168.1.100&nbsp;&nbsp;&nbsp;&nbsp;	      5
 	
 - `Most Accessed Endpoint`	&nbsp;&nbsp;&nbsp;&nbsp;	`Access Count`
-  - /login	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13
+  - /login	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13
 	
 - `IP Address`&nbsp;&nbsp;&nbsp;&nbsp;	`Failed Login Count`
   - 203.0.113.5	     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       8
-  - 192.168.1.100	&nbsp;&nbsp;&nbsp;&nbsp;            5
+  - 192.168.1.100	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            5
 
 
 ## Customization
