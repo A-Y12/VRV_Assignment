@@ -97,10 +97,10 @@ The Log Analysis Script is a Python tool designed to parse web server logs, anal
   - 10.0.0.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      6
   - 192.168.1.100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5
 
-- **Most Frequently Accessed Endpoint**:
+- Most Frequently Accessed Endpoint:
   - /login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Accessed 13 times)
 
-- **Suspicious Activity Detected**:
+- Suspicious Activity Detected:
    - `IP Address`&nbsp;&nbsp;&nbsp;&nbsp;`Failed Login Attempts`
    - 203.0.113.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          8
    - 192.168.1.100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             5
