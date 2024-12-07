@@ -23,7 +23,7 @@ The Log Analysis Script is a Python tool designed to parse web server logs, anal
 (No additional libraries are required for this script, as it uses Python's standard library.)
 
 ## Usage
-### configuring the Script
+### Configuring the Script
 #### Log File Path:
 - Update the LOG_FILE variable in the script to point to the web server log file you wish to analyze. 
 - Example:LOG_FILE = 'path/to/your/logfile.log'
@@ -101,26 +101,26 @@ IP Address            Request Count
   - /login (Accessed 13 times)
 
 - **Suspicious Activity Detected**:
- - *IP Address*          *Failed Login Attempts*
- - 203.0.113.5                            8
- - 192.168.1.100                          5
+   - *IP Address*          *Failed Login Attempts*
+   - 203.0.113.5                            8
+   - 192.168.1.100                          5
 
 Process finished with exit code 0
 
 ### CSV Output (log_analysis_results.csv):
-IP Address	Request Count
-203.0.113.5	      8
-198.51.100.23	      8
-192.168.1.1	      7
-10.0.0.2	      6
-192.168.1.100	      5
+- IP Address	Request Count
+  - 203.0.113.5	      8
+  - 198.51.100.23	      8
+  - 192.168.1.1	      7
+  - 10.0.0.2	      6
+  - 192.168.1.100	      5
 	
-Most Accessed Endpoint	Access Count
-/login	 13
+- Most Accessed Endpoint	Access Count
+  -/login	 13
 	
-IP Address	Failed Login Count
-203.0.113.5	            8
-192.168.1.100	            5
+- IP Address	Failed Login Count
+  - 203.0.113.5	            8
+	- 192.168.1.100	            5
 
 
 ## Customization
