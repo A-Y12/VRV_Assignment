@@ -108,7 +108,7 @@ The Log Analysis Script is a Python tool designed to parse web server logs, anal
 Process finished with exit code 0
 
 ### CSV Output (log_analysis_results.csv):
-- IP Address		Request Count
+- IP Address		                Request Count
   - 203.0.113.5	   	   8
   - 198.51.100.23	      8
   - 192.168.1.1	     	 7
