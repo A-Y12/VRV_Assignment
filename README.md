@@ -94,7 +94,7 @@ The Log Analysis Script is a Python tool designed to parse web server logs, anal
   - 203.0.113.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  8
   - 198.51.100.23&nbsp;&nbsp;&nbsp;&nbsp; 8
   - 192.168.1.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   7
-  - 10.0.0.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      6
+  - 10.0.0.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      6
   - 192.168.1.100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5
 
 - **Most Frequently Accessed Endpoint**:
