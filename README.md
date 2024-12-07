@@ -3,52 +3,53 @@
 The Log Analysis Script is a Python tool designed to parse web server logs, analyze the data, and provide insights such as the number of requests per IP address, the most accessed endpoint, and potential suspicious activity based on failed login attempts. Results are displayed in the terminal and saved to a CSV file for further analysis.
 
 ## Features:
-IP Address Request Count: Counts the number of requests made by each IP address.
-Most Accessed Endpoint: Identifies the endpoint that was accessed most frequently.
-Failed Login Attempts: Detects IP addresses with failed login attempts exceeding a configurable threshold.
-CSV Report Generation: Saves the analyzed data into a structured CSV file.
+-**IP Address Request Count**: Counts the number of requests made by each IP address.
+-**Most Accessed Endpoint**: Identifies the endpoint that was accessed most frequently.
+-**Failed Login Attempts**: Detects IP addresses with failed login attempts exceeding a configurable threshold.
+-**CSV Report Generation**: Saves the analyzed data into a structured CSV file.
 
 ## Requirements:
-Python 3.6 or higher
-Required Python modules:
-re
-csv
-collections
+-Python 3.6 or higher
+-Required Python modules:
+  -re
+  -csv
+  -collections
 
 ## Installation:
-Clone or download this repository to your local machine.
-Ensure Python 3.6 or higher is installed.
-Install any required modules using the following command:
-pip install -r requirements.txt
+-Clone or download this repository to your local machine.
+-Ensure Python 3.6 or higher is installed.
+-Install any required modules using the following command:
+  -pip install -r requirements.txt
 (No additional libraries are required for this script, as it uses Python's standard library.)
 
 ## Usage
 ### configuring the Script
 #### Log File Path:
-Update the LOG_FILE variable in the script to point to the web server log file you wish to analyze. 
-Example:LOG_FILE = 'path/to/your/logfile.log'
+-Update the LOG_FILE variable in the script to point to the web server log file you wish to analyze. 
+-Example:LOG_FILE = 'path/to/your/logfile.log'
 #### Output File Path:
-Set the OUTPUT_FILE variable to specify the desired name and location of the output CSV file. 
-Example:OUTPUT_FILE = 'path/to/output/log_analysis_results.csv'
+-Set the OUTPUT_FILE variable to specify the desired name and location of the output CSV file. 
+-Example:OUTPUT_FILE = 'path/to/output/log_analysis_results.csv'
 #### Failed Login Threshold:
-Modify the FAILED_LOGIN_THRESHOLD to adjust the number of failed login attempts considered suspicious. Example:FAILED_LOGIN_THRESHOLD = 3(here) or 10.
+-Modify the FAILED_LOGIN_THRESHOLD to adjust the number of failed login attempts considered suspicious. ---- 
+-Example:FAILED_LOGIN_THRESHOLD = 3(here) or 10.
 
 ### Running the Script
-Run the script using the following command:
-python log_analysis_script.py
+-Run the script using the following command:
+  -python log_analysis_script.py
 
 ### Output
-Terminal Output:
-Displays:
-Request counts for each IP address.
-The most accessed endpoint and its count.
-Suspicious activity with failed login attempts exceeding the threshold.
+-**Terminal Output**:
+  -Displays:
+    -Request counts for each IP address.
+    -The most accessed endpoint and its count.
+    -Suspicious activity with failed login attempts exceeding the threshold.
 
-CSV File:
-Contains:
-IP Address and request counts.
-Most accessed endpoint and access count.
-Suspicious activity details.
+-**CSV File**:
+ -Contains:
+   -IP Address and request counts.
+   -Most accessed endpoint and access count.
+   -Suspicious activity details.
 
 ## Example
 ### Input Log File (sample.log):
