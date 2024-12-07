@@ -3,10 +3,10 @@
 The Log Analysis Script is a Python tool designed to parse web server logs, analyze the data, and provide insights such as the number of requests per IP address, the most accessed endpoint, and potential suspicious activity based on failed login attempts. Results are displayed in the terminal and saved to a CSV file for further analysis.
 
 ## Features:
--**IP Address Request Count**: Counts the number of requests made by each IP address.
--**Most Accessed Endpoint**: Identifies the endpoint that was accessed most frequently.
--**Failed Login Attempts**: Detects IP addresses with failed login attempts exceeding a configurable threshold.
--**CSV Report Generation**: Saves the analyzed data into a structured CSV file.
+- **IP Address Request Count**: Counts the number of requests made by each IP address.
+- **Most Accessed Endpoint**: Identifies the endpoint that was accessed most frequently.
+- **Failed Login Attempts**: Detects IP addresses with failed login attempts exceeding a configurable threshold.
+- **CSV Report Generation**: Saves the analyzed data into a structured CSV file.
 
 ## Requirements:
 -Python 3.6 or higher
