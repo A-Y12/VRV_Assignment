@@ -90,7 +90,7 @@ The Log Analysis Script is a Python tool designed to parse web server logs, anal
 
 ### Terminal Output:
 - IP Address Request Count:
-  - 'IP Address'            'Request Count'
+  - `IP Address`            `Request Count`
   - 203.0.113.5                       8
   - 198.51.100.23                     8
   - 192.168.1.1                       7
@@ -101,7 +101,7 @@ The Log Analysis Script is a Python tool designed to parse web server logs, anal
   - /login (Accessed 13 times)
 
 - **Suspicious Activity Detected**:
-   - *IP Address*          *Failed Login Attempts*
+   - `IP Address`          `Failed Login Attempts`
    - 203.0.113.5                            8
    - 192.168.1.100                          5
 
@@ -115,12 +115,12 @@ Process finished with exit code 0
   - 10.0.0.2	     	 6
   - 192.168.1.100	      5
 	
-- Most Accessed Endpoint		Access Count
+- `Most Accessed Endpoin`t		`Access Count`
   - /login	 13
 	
-- IP Address	Failed Login Count
+- `IP Address`	`Failed Login Count`
   - 203.0.113.5	            8
-	- 192.168.1.100	            5
+  - 192.168.1.100	            5
 
 
 ## Customization
