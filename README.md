@@ -124,22 +124,22 @@ IP Address	Failed Login Count
 
 
 ## Customization
-Additional Parsing Rules:
-Extend the parse_log_file function to handle other log patterns.
-CSV Output:
-Modify the save_results_to_csv function to include additional data as needed.
+- **Additional Parsing Rules**:
+  - Extend the parse_log_file function to handle other log patterns.
+- **CSV Output**:
+  - Modify the save_results_to_csv function to include additional data as needed.
 
 ## Limitations
-Assumes a specific log format. For non-standard log files, the regex patterns may need adjustments.
-Processes logs line by line and may require optimization for extremely large files.
+- Assumes a specific log format. For non-standard log files, the regex patterns may need adjustments.
+- Processes logs line by line and may require optimization for extremely large files.
 
 ## Troubleshooting
-File Not Found Error:
-Ensure the LOG_FILE path is correct and the file exists.
-Incorrect Results:
-Verify that the log file matches the expected format (IP address, HTTP method, status code, etc.).
-Encoding Issues:
-Use UTF-8 encoding or adjust the open function to handle other encodings with errors='replace'.
+- **File Not Found Error**:
+- Ensure the LOG_FILE path is correct and the file exists.
+- **Incorrect Results**:
+- Verify that the log file matches the expected format (IP address, HTTP method, status code, etc.).
+- **Encoding Issues**:
+- Use UTF-8 encoding or adjust the open function to handle other encodings with errors='replace'.
 
 ## Contribution
 Feel free to fork this repository and submit pull requests for enhancements or bug fixes.
